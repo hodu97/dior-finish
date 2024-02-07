@@ -559,7 +559,7 @@ var ripple6 = new RippleEffect({
   waveSpeed: 0.003,
   hover: false,
 });
-
+ripple6.start);
 document.querySelector(".serve").addEventListener("mouseenter", ripple6.stop);
 document.querySelector(".serve").addEventListener("mouseleave", ripple6.start);
 
